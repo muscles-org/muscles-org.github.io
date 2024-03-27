@@ -1,0 +1,73 @@
+/* static/style.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+h3 {
+    color: #333;
+}
+/* Estilo para o texto dentro do h3 */
+h3 span {
+    font-weight: bold;
+    color: #333; /* Vermelho */
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px; /* Largura do rótulo */
+}
+
+input {
+    width: 200px; /* Largura do campo de entrada */
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estilo para a div */
+.texto-div {
+    padding: 10px;
+    margin: 0 80px;
+    background-color: #f0f0f0; /* cor de fundo */
+    border: 1px solid #ccc; /* borda */
+    border-radius: 5px; /* arredondamento dos cantos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* sombra */
+    text-align: justify;
+    text-indent: 20px; /* recuo de 20 pixels */
+}
+
+/* Estilo para o texto dentro da div */
+.texto {
+    color: #333; /* cor do texto */
+    font-size: 16px; /* tamanho da fonte */
+    line-height: 1.5; /* altura da linha */
+}
+
+.shadow {
+    background-color: white;
+    padding: 10px;
+    margin: 0 80px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona um sombreado suave */
+} 
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
