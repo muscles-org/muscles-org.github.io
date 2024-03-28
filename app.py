@@ -7,7 +7,7 @@ hillModel = Hill_Model()
 
 velocidades = []
 
-@app.route('/teste', methods=['GET','POST'])
+@app.route('/', methods=['GET','POST'])
 def teste():
     if request.method == 'POST':
         velocidade = float(request.form['speed'])
